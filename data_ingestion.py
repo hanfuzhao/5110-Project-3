@@ -1,6 +1,8 @@
-import pandas as pd
+import urllib.request
 
 url = "https://storage.googleapis.com/mlops-keming-123/Processed_data.csv"
-df = pd.read_csv(url)
+local_filename = "Processed_data.csv"
 
-print(df.head())
+urllib.request.urlretrieve(url, local_filename)
+
+print("Saved to:", local_filename)
