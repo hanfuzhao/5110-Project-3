@@ -1,0 +1,21 @@
+{
+  "feature_names": [
+    "shipping_fee",
+    "tax",
+    "status_cancelled",
+    "status_completed",
+    "status_processing",
+    "status_returned",
+    "status_shipped",
+    "avg_order_value",
+    "day_of_week",
+    "is_holiday"
+  ],
+  "target_columns": [
+    "order_count",
+    "item_count",
+    "subtotal",
+    "discount_total",
+    "revenue"
+  ]
+}

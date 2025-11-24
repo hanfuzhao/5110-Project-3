@@ -1,0 +1,4 @@
+tracking_uri: mlruns
+experiment_name: ecommerce_forecasting
+run_name_prefix: baseline
+
