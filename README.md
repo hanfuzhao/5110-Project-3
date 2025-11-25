@@ -1,5 +1,5 @@
 📦 E-commerce Sales Forecasting Pipeline
-End-to-End MLOps Project (Training → Serving → Deployment → Front-End)
+End-to-End MLOps Project 
 
 🔗 Live Demo (Front-End Web App)
 👉 https://huggingface.co/spaces/zkmine/Ecommerce-Prediction
