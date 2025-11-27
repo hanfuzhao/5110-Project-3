@@ -102,3 +102,5 @@ def main() -> None:
 if __name__ == "__main__":
     main()
 
+# AI usage: This feature builder was written manually without AI support.
+
