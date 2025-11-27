@@ -114,3 +114,5 @@ def main() -> None:
 if __name__ == "__main__":
     main()
 
+# AI usage: ChatGPT was referenced when outlining the initial CLI structure.
+

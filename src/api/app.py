@@ -55,6 +55,12 @@ app = FastAPI(title="E-commerce Forecast API", version="0.1.0")
 @app.get("/health")
 def health() -> Dict[str, str]:
     return {"status": "ok"}
+@app.get("/schema")
+def get_schema():
+    return {
+        "feature_names": feature_names,
+        "target_columns": target_columns
+    }
 
 
 @app.post("/predict", response_model=PredictionResponse)
@@ -69,4 +75,6 @@ def predict(request: PredictionRequest) -> PredictionResponse:
     preds = model.predict(df)[0]
     predictions = {target: float(value) for target, value in zip(target_columns, preds)}
     return PredictionResponse(predictions=predictions)
+
+# AI usage: ChatGPT provided guidance on structuring the FastAPI endpoint docstring.
 
