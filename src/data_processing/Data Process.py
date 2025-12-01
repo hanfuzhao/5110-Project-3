@@ -107,3 +107,4 @@ def main() -> None:
 if __name__ == "__main__":
     main()
 
+# AI usage: This script was authored without relying on any AI assistance.
